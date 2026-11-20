@@ -44,11 +44,20 @@ Agenda por día (nota libre + actividades con hora), sincronizada con Google Dri
 
 ## Uso
 
+- **Períodos:** Mañana (hasta 12:00), Tarde (12:00–19:00), Noche (desde 19:00). Con hora, el período se asigna solo; sin hora, se elige en el selector o con el `＋` de cada período.
+- **Devocional:** arriba de todo aparece el de *Nuestro Pan Diario* del día (título + resumen + "Leer completo"). Se puede plegar; queda plegado ese día. También va en el resumen de Telegram de la mañana. Fuente: `FEED_DEVOCIONAL` en `Codigo.gs` (cualquier feed RSS).
+
 - `‹` `›` o deslizar horizontal: cambiar de día. Tocar la fecha: calendario del mes (punto = día con contenido).
 - Barra inferior: hora (opcional) + texto + aviso (requiere hora) → `＋`.
 - Tocar una actividad: editar, cambiar hora/aviso, **mover a otra fecha**, marcar hecho, eliminar.
 - Marcar hecho antes del aviso lo cancela.
 - Estado arriba a la derecha: `✓ Drive hh:mm` sincronizado · `● pendiente` · `⚠ error`.
+
+## Actualizar a una versión nueva
+
+1. **Primero el script:** pegá el `Codigo.gs` nuevo → Guardar → **Implementar → Gestionar implementaciones → ✏️ → Versión: Nueva versión → Implementar**. No ejecutes `configurar()` (lo guardado se mantiene).
+2. **Después GitHub:** subí y reemplazá los archivos cambiados (Add file → Upload files → Commit).
+3. En cada dispositivo recargá la app (con conexión). Si no cambia, cerrá y abrí de nuevo.
 
 ## Mantenimiento
 
